@@ -1,166 +1,482 @@
 fileFormatVersion: 2
 guid: f519298ce6ab5414581f567154d0d0a6
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: Flame
-    100002: Flame (1)
-    100004: Flame (10)
-    100006: Flame (11)
-    100008: Flame (12)
-    100010: Flame (13)
-    100012: Flame (14)
-    100014: Flame (15)
-    100016: Flame (16)
-    100018: Flame (17)
-    100020: Flame (18)
-    100022: Flame (19)
-    100024: Flame (2)
-    100026: Flame (20)
-    100028: Flame (21)
-    100030: Flame (22)
-    100032: Flame (23)
-    100034: Flame (3)
-    100036: Flame (4)
-    100038: Flame (5)
-    100040: Flame (6)
-    100042: Flame (7)
-    100044: Flame (8)
-    100046: Flame (9)
-    100048: Light01
-    100050: Light02
-    100052: Light03
-    100054: Light04
-    100056: Light05
-    100058: Light06
-    100060: Light07
-    100062: Light08
-    100064: Light09
-    100066: Light10
-    100068: Light_Manager
-    100070: Locator2_14
-    100072: Locator2_15
-    100074: Locator2_16
-    100076: Locator2_17
-    100078: Locator2_18
-    100080: //RootNode
-    100082: PerpStage_S02_Library_Collision
-    100084: S02_Library_Board_01
-    100086: S02_Library_Book_01
-    100088: S02_Library_Chair_01
-    100090: S02_Library_Door_01
-    100092: S02_Library_Floor_01
-    100094: S02_Library_Floor_02
-    100096: S02_Library_Light_01
-    100098: S02_Library_Light_02
-    100100: S02_Library_Roof_01
-    100102: S02_Library_san
-    100104: S02_Library_Sky
-    100106: S02_Library_Wall_01
-    100108: S02_Library_Windows_01
-    400000: Flame
-    400002: Flame (1)
-    400004: Flame (10)
-    400006: Flame (11)
-    400008: Flame (12)
-    400010: Flame (13)
-    400012: Flame (14)
-    400014: Flame (15)
-    400016: Flame (16)
-    400018: Flame (17)
-    400020: Flame (18)
-    400022: Flame (19)
-    400024: Flame (2)
-    400026: Flame (20)
-    400028: Flame (21)
-    400030: Flame (22)
-    400032: Flame (23)
-    400034: Flame (3)
-    400036: Flame (4)
-    400038: Flame (5)
-    400040: Flame (6)
-    400042: Flame (7)
-    400044: Flame (8)
-    400046: Flame (9)
-    400048: Light01
-    400050: Light02
-    400052: Light03
-    400054: Light04
-    400056: Light05
-    400058: Light06
-    400060: Light07
-    400062: Light08
-    400064: Light09
-    400066: Light10
-    400068: Light_Manager
-    400070: Locator2_14
-    400072: Locator2_15
-    400074: Locator2_16
-    400076: Locator2_17
-    400078: Locator2_18
-    400080: //RootNode
-    400082: PerpStage_S02_Library_Collision
-    400084: S02_Library_Board_01
-    400086: S02_Library_Book_01
-    400088: S02_Library_Chair_01
-    400090: S02_Library_Door_01
-    400092: S02_Library_Floor_01
-    400094: S02_Library_Floor_02
-    400096: S02_Library_Light_01
-    400098: S02_Library_Light_02
-    400100: S02_Library_Roof_01
-    400102: S02_Library_san
-    400104: S02_Library_Sky
-    400106: S02_Library_Wall_01
-    400108: S02_Library_Windows_01
-    2100000: Library_c04
-    2100002: Library_c01
-    2100004: Library_c06
-    2100006: Library_c02
-    2100008: Library_c05
-    2100010: Library_c03
-    2100012: Library_c07
-    2100014: S02_Library_Bg2
-    2100016: S02_Library_Bg
-    2300000: S02_Library_Board_01
-    2300002: S02_Library_Book_01
-    2300004: S02_Library_Chair_01
-    2300006: S02_Library_Door_01
-    2300008: S02_Library_Floor_01
-    2300010: S02_Library_Floor_02
-    2300012: S02_Library_Light_01
-    2300014: S02_Library_Light_02
-    2300016: S02_Library_Roof_01
-    2300018: S02_Library_san
-    2300020: S02_Library_Sky
-    2300022: S02_Library_Wall_01
-    2300024: S02_Library_Windows_01
-    3300000: S02_Library_Board_01
-    3300002: S02_Library_Book_01
-    3300004: S02_Library_Chair_01
-    3300006: S02_Library_Door_01
-    3300008: S02_Library_Floor_01
-    3300010: S02_Library_Floor_02
-    3300012: S02_Library_Light_01
-    3300014: S02_Library_Light_02
-    3300016: S02_Library_Roof_01
-    3300018: S02_Library_san
-    3300020: S02_Library_Sky
-    3300022: S02_Library_Wall_01
-    3300024: S02_Library_Windows_01
-    4300000: S02_Library_Board_01
-    4300002: S02_Library_Book_01
-    4300004: S02_Library_Door_01
-    4300006: S02_Library_Light_02
-    4300008: S02_Library_Chair_01
-    4300010: S02_Library_Floor_01
-    4300012: S02_Library_Floor_02
-    4300014: S02_Library_Light_01
-    4300016: S02_Library_Roof_01
-    4300018: S02_Library_Wall_01
-    4300020: S02_Library_Windows_01
-    4300022: S02_Library_san
-    4300024: S02_Library_Sky
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Flame
+  - first:
+      1: 100002
+    second: Flame (1)
+  - first:
+      1: 100004
+    second: Flame (10)
+  - first:
+      1: 100006
+    second: Flame (11)
+  - first:
+      1: 100008
+    second: Flame (12)
+  - first:
+      1: 100010
+    second: Flame (13)
+  - first:
+      1: 100012
+    second: Flame (14)
+  - first:
+      1: 100014
+    second: Flame (15)
+  - first:
+      1: 100016
+    second: Flame (16)
+  - first:
+      1: 100018
+    second: Flame (17)
+  - first:
+      1: 100020
+    second: Flame (18)
+  - first:
+      1: 100022
+    second: Flame (19)
+  - first:
+      1: 100024
+    second: Flame (2)
+  - first:
+      1: 100026
+    second: Flame (20)
+  - first:
+      1: 100028
+    second: Flame (21)
+  - first:
+      1: 100030
+    second: Flame (22)
+  - first:
+      1: 100032
+    second: Flame (23)
+  - first:
+      1: 100034
+    second: Flame (3)
+  - first:
+      1: 100036
+    second: Flame (4)
+  - first:
+      1: 100038
+    second: Flame (5)
+  - first:
+      1: 100040
+    second: Flame (6)
+  - first:
+      1: 100042
+    second: Flame (7)
+  - first:
+      1: 100044
+    second: Flame (8)
+  - first:
+      1: 100046
+    second: Flame (9)
+  - first:
+      1: 100048
+    second: Light01
+  - first:
+      1: 100050
+    second: Light02
+  - first:
+      1: 100052
+    second: Light03
+  - first:
+      1: 100054
+    second: Light04
+  - first:
+      1: 100056
+    second: Light05
+  - first:
+      1: 100058
+    second: Light06
+  - first:
+      1: 100060
+    second: Light07
+  - first:
+      1: 100062
+    second: Light08
+  - first:
+      1: 100064
+    second: Light09
+  - first:
+      1: 100066
+    second: Light10
+  - first:
+      1: 100068
+    second: Light_Manager
+  - first:
+      1: 100070
+    second: Locator2_14
+  - first:
+      1: 100072
+    second: Locator2_15
+  - first:
+      1: 100074
+    second: Locator2_16
+  - first:
+      1: 100076
+    second: Locator2_17
+  - first:
+      1: 100078
+    second: Locator2_18
+  - first:
+      1: 100080
+    second: //RootNode
+  - first:
+      1: 100082
+    second: PerpStage_S02_Library_Collision
+  - first:
+      1: 100084
+    second: S02_Library_Board_01
+  - first:
+      1: 100086
+    second: S02_Library_Book_01
+  - first:
+      1: 100088
+    second: S02_Library_Chair_01
+  - first:
+      1: 100090
+    second: S02_Library_Door_01
+  - first:
+      1: 100092
+    second: S02_Library_Floor_01
+  - first:
+      1: 100094
+    second: S02_Library_Floor_02
+  - first:
+      1: 100096
+    second: S02_Library_Light_01
+  - first:
+      1: 100098
+    second: S02_Library_Light_02
+  - first:
+      1: 100100
+    second: S02_Library_Roof_01
+  - first:
+      1: 100102
+    second: S02_Library_san
+  - first:
+      1: 100104
+    second: S02_Library_Sky
+  - first:
+      1: 100106
+    second: S02_Library_Wall_01
+  - first:
+      1: 100108
+    second: S02_Library_Windows_01
+  - first:
+      4: 400000
+    second: Flame
+  - first:
+      4: 400002
+    second: Flame (1)
+  - first:
+      4: 400004
+    second: Flame (10)
+  - first:
+      4: 400006
+    second: Flame (11)
+  - first:
+      4: 400008
+    second: Flame (12)
+  - first:
+      4: 400010
+    second: Flame (13)
+  - first:
+      4: 400012
+    second: Flame (14)
+  - first:
+      4: 400014
+    second: Flame (15)
+  - first:
+      4: 400016
+    second: Flame (16)
+  - first:
+      4: 400018
+    second: Flame (17)
+  - first:
+      4: 400020
+    second: Flame (18)
+  - first:
+      4: 400022
+    second: Flame (19)
+  - first:
+      4: 400024
+    second: Flame (2)
+  - first:
+      4: 400026
+    second: Flame (20)
+  - first:
+      4: 400028
+    second: Flame (21)
+  - first:
+      4: 400030
+    second: Flame (22)
+  - first:
+      4: 400032
+    second: Flame (23)
+  - first:
+      4: 400034
+    second: Flame (3)
+  - first:
+      4: 400036
+    second: Flame (4)
+  - first:
+      4: 400038
+    second: Flame (5)
+  - first:
+      4: 400040
+    second: Flame (6)
+  - first:
+      4: 400042
+    second: Flame (7)
+  - first:
+      4: 400044
+    second: Flame (8)
+  - first:
+      4: 400046
+    second: Flame (9)
+  - first:
+      4: 400048
+    second: Light01
+  - first:
+      4: 400050
+    second: Light02
+  - first:
+      4: 400052
+    second: Light03
+  - first:
+      4: 400054
+    second: Light04
+  - first:
+      4: 400056
+    second: Light05
+  - first:
+      4: 400058
+    second: Light06
+  - first:
+      4: 400060
+    second: Light07
+  - first:
+      4: 400062
+    second: Light08
+  - first:
+      4: 400064
+    second: Light09
+  - first:
+      4: 400066
+    second: Light10
+  - first:
+      4: 400068
+    second: Light_Manager
+  - first:
+      4: 400070
+    second: Locator2_14
+  - first:
+      4: 400072
+    second: Locator2_15
+  - first:
+      4: 400074
+    second: Locator2_16
+  - first:
+      4: 400076
+    second: Locator2_17
+  - first:
+      4: 400078
+    second: Locator2_18
+  - first:
+      4: 400080
+    second: //RootNode
+  - first:
+      4: 400082
+    second: PerpStage_S02_Library_Collision
+  - first:
+      4: 400084
+    second: S02_Library_Board_01
+  - first:
+      4: 400086
+    second: S02_Library_Book_01
+  - first:
+      4: 400088
+    second: S02_Library_Chair_01
+  - first:
+      4: 400090
+    second: S02_Library_Door_01
+  - first:
+      4: 400092
+    second: S02_Library_Floor_01
+  - first:
+      4: 400094
+    second: S02_Library_Floor_02
+  - first:
+      4: 400096
+    second: S02_Library_Light_01
+  - first:
+      4: 400098
+    second: S02_Library_Light_02
+  - first:
+      4: 400100
+    second: S02_Library_Roof_01
+  - first:
+      4: 400102
+    second: S02_Library_san
+  - first:
+      4: 400104
+    second: S02_Library_Sky
+  - first:
+      4: 400106
+    second: S02_Library_Wall_01
+  - first:
+      4: 400108
+    second: S02_Library_Windows_01
+  - first:
+      21: 2100000
+    second: Library_c04
+  - first:
+      21: 2100002
+    second: Library_c01
+  - first:
+      21: 2100004
+    second: Library_c06
+  - first:
+      21: 2100006
+    second: Library_c02
+  - first:
+      21: 2100008
+    second: Library_c05
+  - first:
+      21: 2100010
+    second: Library_c03
+  - first:
+      21: 2100012
+    second: Library_c07
+  - first:
+      21: 2100014
+    second: S02_Library_Bg2
+  - first:
+      21: 2100016
+    second: S02_Library_Bg
+  - first:
+      23: 2300000
+    second: S02_Library_Board_01
+  - first:
+      23: 2300002
+    second: S02_Library_Book_01
+  - first:
+      23: 2300004
+    second: S02_Library_Chair_01
+  - first:
+      23: 2300006
+    second: S02_Library_Door_01
+  - first:
+      23: 2300008
+    second: S02_Library_Floor_01
+  - first:
+      23: 2300010
+    second: S02_Library_Floor_02
+  - first:
+      23: 2300012
+    second: S02_Library_Light_01
+  - first:
+      23: 2300014
+    second: S02_Library_Light_02
+  - first:
+      23: 2300016
+    second: S02_Library_Roof_01
+  - first:
+      23: 2300018
+    second: S02_Library_san
+  - first:
+      23: 2300020
+    second: S02_Library_Sky
+  - first:
+      23: 2300022
+    second: S02_Library_Wall_01
+  - first:
+      23: 2300024
+    second: S02_Library_Windows_01
+  - first:
+      33: 3300000
+    second: S02_Library_Board_01
+  - first:
+      33: 3300002
+    second: S02_Library_Book_01
+  - first:
+      33: 3300004
+    second: S02_Library_Chair_01
+  - first:
+      33: 3300006
+    second: S02_Library_Door_01
+  - first:
+      33: 3300008
+    second: S02_Library_Floor_01
+  - first:
+      33: 3300010
+    second: S02_Library_Floor_02
+  - first:
+      33: 3300012
+    second: S02_Library_Light_01
+  - first:
+      33: 3300014
+    second: S02_Library_Light_02
+  - first:
+      33: 3300016
+    second: S02_Library_Roof_01
+  - first:
+      33: 3300018
+    second: S02_Library_san
+  - first:
+      33: 3300020
+    second: S02_Library_Sky
+  - first:
+      33: 3300022
+    second: S02_Library_Wall_01
+  - first:
+      33: 3300024
+    second: S02_Library_Windows_01
+  - first:
+      43: 4300000
+    second: S02_Library_Board_01
+  - first:
+      43: 4300002
+    second: S02_Library_Book_01
+  - first:
+      43: 4300004
+    second: S02_Library_Door_01
+  - first:
+      43: 4300006
+    second: S02_Library_Light_02
+  - first:
+      43: 4300008
+    second: S02_Library_Chair_01
+  - first:
+      43: 4300010
+    second: S02_Library_Floor_01
+  - first:
+      43: 4300012
+    second: S02_Library_Floor_02
+  - first:
+      43: 4300014
+    second: S02_Library_Light_01
+  - first:
+      43: 4300016
+    second: S02_Library_Roof_01
+  - first:
+      43: 4300018
+    second: S02_Library_Wall_01
+  - first:
+      43: 4300020
+    second: S02_Library_Windows_01
+  - first:
+      43: 4300022
+    second: S02_Library_san
+  - first:
+      43: 4300024
+    second: S02_Library_Sky
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -208,23 +524,23 @@ ModelImporter:
       name: S02_Library_Bg2
     second: {fileID: 2100000, guid: 521301ca743d19548b106f54786fdd8b, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -239,32 +555,49 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 0
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 0
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -274,14 +607,19 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
