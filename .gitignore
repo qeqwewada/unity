@@ -1,0 +1,24 @@
+Library/
+Temp/
+*.sln
+*.csproj
+*.sln
+*.userprefs
+*.unityproj
+*.DS_Store
+.plastic/
+# 如果你想保留目录结构但忽略特定类型的文件，可以这样写：
+#Assets/BH3/Animation/*
+#Assets/BH3/Animation/**/*
+Assets/Plugins/MMD4Mecanim/*
+Assets/Plugins/MMD4Mecanim/**/*
+#Assets/BH3/Model/*
+#Assets/BH3/Model/**/*
+
+#Assets/BH3/NPC/*
+#Assets/BH3/NPC/**/*
+
+# Unity 日志文件
+Logs/
+*.log
+UserSettings/Layouts/default-6000.dwlt
